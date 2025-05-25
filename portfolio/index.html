@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>My Portfolio</title>
+</head>
+<body data-theme="light">
+
+    <nav>
+    <ul style="display: flex; align-items: center; width: 100%; list-style: none; padding: 0; margin: 0;">
+        <li><a href="#" onclick="showSection('home')">HOME</a></li>
+        <li><a href="#" onclick="showSection('about')">ABOUT</a></li>
+        <li><a href="#" onclick="showSection('project')">PROJECT</a></li>
+        <li><a href="#" onclick="showSection('certificate')">CERTIFICATE</a></li>
+        <li><a href="#" onclick="showSection('contact')">CONTACT</a></li>
+        <li><button onclick="toggleTheme()" class="theme-toggle" style="margin-left: 20px;">🌞 🌙</button></li>
+
+        <li style="margin-left: auto;">
+            <a href="https://github.com/Iamsanji" target="_blank">
+                <img src="images/github.png" alt="github"
+                     style="width: 40px; height: 40px; border: 3px solid black; border-radius: 50%;">
+            </a>
+        </li>
+    </ul>
+    </nav>
+
+
+        
+        <main id="content" class="main">
+            
+            <section id="home" class="section">
+                <div class="home">
+                    <div class="text-content">
+                        <h1><span id="animated-text">Welcome!</span> I'm <span id = "animated-text"class="highlight">Josh A. Mendoza</span></h1>
+                        <p>A Computer Science student passionate about web development and UI/UX design.</p>
+                        <div class="cs">
+                            <a href="https://www.facebook.com/josh.mendoza.930489" target="_blank"><img src="images/fb.png" alt="Facebook"></a>
+                            <a href="mailto:joshmendoza121319@gmail.com" target="_blank"><img src="images/gmail.png" alt="Gmail"></a>
+                            <a href="#" onclick="showSection('contact')"><img src="/images/contact.png" alt="Contact"></a>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="images/pfp.png" alt="Josh Abil Mendoza" class="profile-img">
+                    </div>
+                </div>
+                
+            </section>
+
+
+
+            <section id = "about" class="section" style="display: none;">
+                <div class="about-me">
+                    <img src="images/pfp.png" alt="pfp">
+                    <div>
+                    <h1>About Me</h1>
+                    <p>I am a Computer Science student with a passion for web development and UI/UX design. I enjoy creating user-friendly interfaces and solving complex problems through code. I am currently taking Bachelor of Science in Computer Science at Western Mindanao State University.</p>
+                    </div>
+                </div>
+                
+                <div class="skills">
+                    <h1>Skills</h1>
+                    <ul class="skill-list">
+                    <li>
+                        <img src="images/c++.png" alt="C++">
+                        <p>Used for solving algorithmic problems and building console applications.</p>
+                    </li>
+                    <li>
+                        <img src="images/java.png" alt="Java">
+                        <p>Used for object-oriented programming and basic desktop app development.</p>
+                    </li>
+                    <li>
+                        <img src="images/php.png" alt="PHP">
+                        <p>Utilized in building dynamic web applications with MySQL databases.</p>
+                    </li>
+                    <li>
+                        <img src="images/html.png" alt="HTML">
+                        <p>Structured web content with semantic HTML5 elements.</p>
+                    </li>
+                    <li>
+                        <img src="images/python.png" alt="Python">
+                        <p>Explored for automation tasks, data handling, and beginner AI projects.</p>
+                    </li>
+                    <li>
+                        <img src="images/tailwind.png" alt="C++ Again">
+                        <p>CSS styles framework in designing a responsive user interface.</p>
+                    </li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section id = "certificate" class="section" style="display: none;">
+            <h1>Certificates </h1>
+            
+            <br>    
+                <ul class="c-list">
+                    <li>
+                        <div class="c-item">
+                            <img src="/images/c1.jpg" alt="c1">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="c-item">
+                            <img src="/images/c2.jpg" alt="c2">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="c-item">
+                            <img src="/images/c3.jpg" alt="c3">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="c-item">
+                            <img src="/images/c4.jpg" alt="c4">
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id = "project" class="section" style="display: none;">
+                <h1>Projects</h1>
+                <p>Here are some of the projects I have worked on:</p>
+                    
+                    <ul class="project-list">
+                        <li>
+                            <div class="project-item">
+                                <a href="https://dentalcarewmsu.site/" target="_blank">
+                                    <img src="/images/dental.png" alt="dental">
+                                    <div class="overlay">
+                                        <p>A web application for managing dental appointments and patient records.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button-wrapper">
+                                <a href="https://github.com/JzHamid/dentalcare" target="_blank" rel="noopener noreferrer" class="view-btn">Visit GitHub Repo</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-item">
+                                <a href="https://dentalcarewmsu.site/" target="_blank">
+                                    <img src="/images/noimg.png" alt="dental">
+                                    <div class="overlay">
+                                        <p>A web application for managing dental appointments and patient records.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button-wrapper">
+                                <a href="https://github.com/Iamsanji/finalweb" target="_blank" rel="noopener noreferrer" class="view-btn">Visit GitHub Repo</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-item">
+                                <a href="https://iamsanji.github.io/josh/" target="_blank">
+                                    <img src="/images/img.png" alt="dental">
+                                    <div class="overlay">
+                                        <p>A simple web application that consist of my COR, schedules, etc.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button-wrapper">
+                                <a href="https://github.com/Iamsanji/josh" target="_blank" rel="noopener noreferrer" class="view-btn">Visit GitHub Repo</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-item">
+                                <a href="https://iamsanji.github.io/valentines/" target="_blank">
+                                    <img src="/images/img1.png" alt="dental">
+                                    <div class="overlay">
+                                        <p>A simple web for my best partner.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button-wrapper">
+                                <a href="https://github.com/Iamsanji/valentines" target="_blank" rel="noopener noreferrer" class="view-btn">Visit GitHub Repo</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-item">
+                                <a href="https://github.com/Iamsanji/bus-simulation" target="_blank">
+                                    <img src="/images/img2.png" alt="dental">
+                                    <div class="overlay">
+                                        <p>A simple bus simulation using python.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button-wrapper">
+                                <a href="https://github.com/Iamsanji/bus-simulation" target="_blank" rel="noopener noreferrer" class="view-btn">Visit GitHub Repo</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-item">
+                                <a href="https://iamsanji.github.io/dice_xd/" target="_blank">
+                                    <img src="images/dice.png" alt="dental">
+                                    <div class="overlay">
+                                        <p>Nothing but dice.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button-wrapper">
+                                <a href="https://github.com/Iamsanji/dice_xd" target="_blank" rel="noopener noreferrer" class="view-btn">Visit GitHub Repo</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-item">
+                                <a href="https://iamsanji.github.io/CS-Electives-login/" target="_blank">
+                                    <img src="images/login.png" alt="dental">
+                                    <div class="overlay">
+                                        <p>A simple signin/signup form.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button-wrapper">
+                                <a href="https://github.com/Iamsanji/CS-Electives-login" target="_blank" rel="noopener noreferrer" class="view-btn">Visit GitHub Repo</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-item">
+                                <a href="#" target="_blank">
+                                    <img src="images/noimg.png" alt="dental">
+                                    <div class="overlay">
+                                        <p>A simple web application that monitors the pwd & senior purchases.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button-wrapper">
+                                <a href="https://github.com/Iamsanji/adv_db" target="_blank" rel="noopener noreferrer" class="view-btn">Visit GitHub Repo</a>
+                            </div>
+                        </li>
+    
+                    </ul>
+                    
+            </section>
+
+            <section id="contact" class="section" style="display: none;">
+                <div class="contact-container">
+                    <h1>Contact Me</h1>
+                    <p>If you have any questions or project opportunities, feel free to reach out!</p>
+                    <form action="https://formspree.io/f/{your-form-id}" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+    <footer>
+
+    </footer>    
+
+<script src="script.js"></script>
+<script>
+  const messages = ["Welcome!", "Hi!", "Hello World!", "Greetings!"];
+  const animatedText = document.getElementById("animated-text");
+  let index = 0;
+
+  setInterval(() => {
+    animatedText.style.opacity = 0;
+
+    setTimeout(() => {
+      index = (index + 1) % messages.length;
+      animatedText.textContent = messages[index];
+      animatedText.style.opacity = 1;
+    }, 500); // match this to the CSS transition duration
+  }, 3000); // change every 3 seconds
+</script>
+
+</body>
+</html>
